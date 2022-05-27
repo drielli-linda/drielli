@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    display: flex;
+    background-color: purple;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px;
+}
+
+.menu li a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.menu li:hover {
+    background-color: rgb(185, 109, 247);
+    padding: 30px;
+}
+
+.tamanho1 {
+    font-size: 40px;
+}
+
+.conteiner img {
+    border-radius: 35%;
+}
